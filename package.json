@@ -1,0 +1,30 @@
+{
+  "name": "what-the-mec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luna-almoayad/What-the-MEC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/luna-almoayad/What-the-MEC/issues"
+  },
+  "homepage": "https://github.com/luna-almoayad/What-the-MEC#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "twilio": "^5.10.4",
+    "zod": "^4.1.12"
+  }
+}
